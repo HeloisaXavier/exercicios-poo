@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 				
 		Livro l1 = new Livro("Harry Potter", 40.0, 50, "J. K. Rowling", "FANTASIA", 300);
-		Livro l2 = new Livro("Senhor dos An√©is", 60.0, 30, "J. R. R. Tolkien", "FANTASIA", 500);
+		Livro l2 = new Livro("Senhor dos AnÈis", 60.0, 30, "J. R. R. Tolkien", "FANTASIA", 500);
 		Livro l3 = new Livro("Java POO", 20.0, 50, "GFT", "EDUCATIVO", 500);
 		
 		VideoGame ps4 = new VideoGame("PS4", 1800.0, 100, "Sony", "Slim", false);
@@ -27,25 +27,26 @@ public class Main {
 		americanas.adicionarGame(ps4);
 		
 		if (l2.getTema().toLowerCase().equals("educativo")) {
-			System.out.println("Livro educativo n√£o tem imposto: " + l2.getNome());
+			System.out.println("Livro educativo n„o tem imposto: " + l2.getNome());
 		} else {
 			System.out.printf("R$%.2f de impostos sobre o livro %s\n", l2.calculaImposto(), l2.getNome());			
 		}
 		
 		if (l3.getTema().toLowerCase().equals("educativo")) {
-			System.out.println("Livro educativo n√£o tem imposto: " + l3.getNome());
+			System.out.println("Livro educativo n„o tem imposto: " + l3.getNome());
 		} else {
 			System.out.printf("R$%.2f de impostos sobre o livro %s\n", l3.calculaImposto(), l3.getNome());			
 		}
+		
 		System.out.printf("Imposto PS4 Slim usado: R$%.2f\n", ps4Usado.calculaImposto());
 		System.out.printf("Imposto PS4 Slim R$%.2f\n", ps4.calculaImposto());
 		System.out.println("-----------------------------------------------------------");
 		System.out.println("A loja Americanas possui estes livros para venda:");
 		americanas.listaLivros();
 		System.out.println("-----------------------------------------------------------");
-		System.out.println("A loja Americanas possui estes v√≠deo games para venda:");
+		System.out.println("A loja Americanas possui estes vÌdeo games para venda:");
 		americanas.listaVideogames();
 		System.out.println("-----------------------------------------------------------");
-		System.out.printf("O patrimonio da loja: %s √© de R$%.2f\n", americanas.getNome() ,americanas.calculaPatrimonio());
+		System.out.printf("O patrimonio da loja: %s È de R$%.2f\n", americanas.getNome() ,americanas.calculaPatrimonio());
 	}
 }

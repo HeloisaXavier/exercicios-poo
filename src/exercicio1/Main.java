@@ -11,26 +11,26 @@ public class Main {
     	System.out.println("** FUSCA **");
 		System.out.println("Litros no tanque antes de abastecer: " + fusca.getLitrosCombustivel());
 		fusca.abastecer(20);
-		System.out.println("Litros no tanque apÃ³s abastecer: " + fusca.getLitrosCombustivel());
+		System.out.println("Litros no tanque após abastecer: " + fusca.getLitrosCombustivel());
 		System.out.println();
-		System.out.println("Status do veÃ­culo (LIGADO/DESLIGADO): " + fusca.isLigado());
+		System.out.println("Status do veículo (LIGADO/DESLIGADO): " + fusca.isLigado());
 		fusca.ligar();
-		System.out.println("Status do veÃ­culo apÃ³s ligar (LIGADO/DESLIGADO): " + fusca.isLigado());
+		System.out.println("Status do veículo após ligar (LIGADO/DESLIGADO): " + fusca.isLigado());
 		System.out.println();
-		System.out.println("Velocidade do veÃ­culo antes de acelerar: " + fusca.getVelocidade());
+		System.out.println("Velocidade do veículo antes de acelerar: " + fusca.getVelocidade());
 		fusca.acelerar();
-		System.out.println("Velocidade do veÃ­culo apÃ³s acelerar: " + fusca.getVelocidade());
+		System.out.println("Velocidade do veículo após acelerar: " + fusca.getVelocidade());
 		System.out.println();
-		System.out.println("Velocidade do veÃ­culo antes de frear: " + fusca.getVelocidade());
+		System.out.println("Velocidade do veículo antes de frear: " + fusca.getVelocidade());
 		fusca.frear();
-		System.out.println("Velocidade do veÃ­culo apÃ³s frear: " + fusca.getVelocidade());
+		System.out.println("Velocidade do veículo após frear: " + fusca.getVelocidade());
 		System.out.println();
-		System.out.println("Quantidade de combustÃ­vel no tanque antes de abastecer: " + fusca.getLitrosCombustivel());
+		System.out.println("Quantidade de combustível no tanque antes de abastecer: " + fusca.getLitrosCombustivel());
 		fusca.abastecer(20);
-		System.out.println("Quantidade de combustÃ­vel no tanque apÃ³s abastecer: " + fusca.getLitrosCombustivel());
+		System.out.println("Quantidade de combustível no tanque após abastecer: " + fusca.getLitrosCombustivel());
 		System.out.println();
-		System.out.println("Status do veÃ­culo (LIGADO/DESLIGADO): " + fusca.isLigado());
+		System.out.println("Status do veículo (LIGADO/DESLIGADO): " + fusca.isLigado());
 		fusca.desligar();
-		System.out.println("Status do veÃ­culo apÃ³s desligar (LIGADO/DESLIGADO): " + fusca.isLigado());
+		System.out.println("Status do veículo após desligar (LIGADO/DESLIGADO): " + fusca.isLigado());
 		}
 }

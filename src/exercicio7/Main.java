@@ -14,10 +14,10 @@ public class Main {
 		Funcionario vendedor = new Vendedor("Geuza", 25, 1000.0);
 		
 		System.out.println(gerente.toString());
-		System.out.println("  BonificaÃ§Ã£o gerente: R$" + String.format("%.2f", gerente.bonificacao()) + "\n");
+		System.out.println("  Bonificação gerente: R$" + String.format("%.2f", gerente.bonificacao()) + "\n");
 		System.out.println(supervisor.toString());
-		System.out.println("  BonificaÃ§Ã£o supervisor: R$" + String.format("%.2f", supervisor.bonificacao()) + "\n");
+		System.out.println("  Bonificação supervisor: R$" + String.format("%.2f", supervisor.bonificacao()) + "\n");
 		System.out.println(vendedor.toString());
-		System.out.println("  BonificaÃ§Ã£o vendedor: R$" + String.format("%.2f", vendedor.bonificacao()));
+		System.out.println("  Bonificação vendedor: R$" + String.format("%.2f", vendedor.bonificacao()));
 	}
 }

@@ -11,7 +11,7 @@ public class Main {
 		Mago harry = new Mago("Harry Potter", 100, 100, 150, 120, 20, 8);
 		Mago rony = new Mago("Rony Weasley", 100, 100, 150, 50, 20, 8);
 		Guerreiro mulherMaravilha = new Guerreiro("Mulher Maravilha", 200, 20, 10, 20, 80, 100);
-		Guerreiro canarioNegro = new Guerreiro("CanÃ¡rio Negro", 200, 20, 200, 10, 80, 20);
+		Guerreiro canarioNegro = new Guerreiro("Canário Negro", 200, 20, 200, 10, 80, 20);
 		
 		hermione.aprenderMagia("Wingardium Leviosa");
 		System.out.println("Hermione antes de evoluir:");
@@ -21,7 +21,7 @@ public class Main {
 		System.out.println(hermione.toString());
 		hermione.attack();
 		System.out.println("\n");
-		mulherMaravilha.aprenderHabilidade("LaÃ§o da verdade");
+		mulherMaravilha.aprenderHabilidade("Laço da verdade");
 		System.out.println("Mulher Maravilha antes de evoluir:");
 		System.out.println(mulherMaravilha.toString());
 		mulherMaravilha.lvlUp();

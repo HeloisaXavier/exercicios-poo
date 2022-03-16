@@ -63,7 +63,7 @@ public class Loja {
 	
 	public void listaVideogames() {
 		if (videoGames.size() == 0) {
-			System.out.println("Lista de vÃ­deo games vazia");
+			System.out.println("Lista de vídeo games vazia");
 		}
 		for (VideoGame game : videoGames) {
 			System.out.println(game);

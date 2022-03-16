@@ -40,9 +40,7 @@ public class Mago extends Personagem {
 	@Override
 	public String toString() {
 		return "Mago [listaDeMagias=" + listaDeMagias + ", Nome=" + getNome() + ", Vida=" + getVida() + ", Mana="
-				+ getMana() + ", Xp=" + getXp() + ", Inteligencia=" + getInteligencia() + ", ForÃ§a="
+				+ getMana() + ", Xp=" + getXp() + ", Inteligencia=" + getInteligencia() + ", Força="
 				+ getForca() + ", Level=" + getLevel() + "]";
 	}
-	
-	
 }

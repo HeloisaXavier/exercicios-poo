@@ -9,10 +9,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Pessoa joao = new Pessoa("Jo√£o", 15);
+		Pessoa joao = new Pessoa("Jo„o", 15);
 		Pessoa leandro = new Pessoa("Leandro", 21);
 		Pessoa paulo = new Pessoa("Paulo", 17);
-		Pessoa jessica = new Pessoa("J√©ssica", 18);
+		Pessoa jessica = new Pessoa("JÈssica", 18);
 		
 		List<Pessoa> pessoas = new ArrayList<>();
 		pessoas.add(joao);
@@ -20,7 +20,7 @@ public class Main {
 		pessoas.add(paulo);
 		pessoas.add(jessica);
 		
-		System.out.println("**Exerc√≠cio 4** - Pessoa mais velha da lista.");
+		System.out.println("**ExercÌcio 4** - Pessoa mais velha da lista.");
 		Pessoa velha = pessoas.get(0);
 		for (Pessoa pessoa : pessoas) {
 			if (pessoa.getIdade() > velha.getIdade()) {
@@ -29,22 +29,20 @@ public class Main {
 		}
 		System.out.println(velha + "\n");
 		
-		System.out.println("**Exerc√≠cio 5** - Quantidade de pessoas na lista antes e depois de remover os menores de idade");
+		System.out.println("**ExercÌcio 5** - Quantidade de pessoas na lista antes e depois de remover os menores de idade");
 		System.out.println("Pessoas na lista antes de remover os menores: " + pessoas.size());
 		for (int i = 0; i < pessoas.size(); i++) {
 			if (pessoas.get(i).getIdade() < 18) {
 				pessoas.remove(pessoas.get(i));
 			}
 		}
-		System.out.println("Pessoas na lista ap√≥s remover os menores: " + pessoas.size() + "\n");
+		System.out.println("Pessoas na lista apÛs remover os menores: " + pessoas.size() + "\n");
 		
-		
-		System.out.println("**Exerc√≠cio 6** - Buscar por pessoa na lista");
+		System.out.println("**ExercÌcio 6** - Buscar por pessoa na lista");
 		for (int i = 0; i < pessoas.size(); i++) {
-			if (pessoas.get(i).getNome().toLowerCase().equals("j√©ssica")) {
+			if (pessoas.get(i).getNome().toLowerCase().equals("jÈssica")) {
 				System.out.println(pessoas.get(i).toString());
 			}
 		}
-
 	}
 }

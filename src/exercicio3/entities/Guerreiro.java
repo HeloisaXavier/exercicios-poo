@@ -40,7 +40,7 @@ public class Guerreiro extends Personagem {
 	@Override
 	public String toString() {
 		return "Guerreiro [listaDeHabilidades=" + listaDeHabilidades + ", Nome=" + getNome() + ", Vida=" + getVida()
-				+ ", Mana=" + getMana() + ", Xp=" + getXp() + ", tInteligÃªncia=" + getInteligencia()
-				+ ", ForÃ§a=" + getForca() + ", Level=" + getLevel() + "]";
+				+ ", Mana=" + getMana() + ", Xp=" + getXp() + ", Inteligência=" + getInteligencia()
+				+ ", Força=" + getForca() + ", Level=" + getLevel() + "]";
 	}
 }

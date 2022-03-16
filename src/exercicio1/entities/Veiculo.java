@@ -15,14 +15,14 @@ public class Veiculo {
 	private boolean isLigado;
 	private double litrosCombustivel;
 	private int velocidade;
-	private Double pre√ßo;
+	private Double preco;
 	
 	public Veiculo() {
 		super();
 	}
 
 	public Veiculo(String marca, String modelo, String placa, String cor, float km, boolean isLigado,
-			int litrosCombustivel, Double pre√ßo) {
+			int litrosCombustivel, Double preco) {
 		this.marca = marca;
 		this.modelo = modelo;
 		this.placa = placa;
@@ -30,7 +30,7 @@ public class Veiculo {
 		this.km = km;
 		this.isLigado = isLigado;
 		this.litrosCombustivel = litrosCombustivel;
-		this.pre√ßo = pre√ßo;
+		this.preco = preco;
 	}
 
 	public String getMarca() {
@@ -97,17 +97,17 @@ public class Veiculo {
 		this.velocidade = velocidade;
 	}
 
-	public Double getPre√ßo() {
-		return pre√ßo;
+	public Double getPreco() {
+		return preco;
 	}
 
-	public void setPre√ßo(Double pre√ßo) {
-		this.pre√ßo = pre√ßo;
+	public void setPreco(Double preco) {
+		this.preco = preco;
 	}
 	
 	public void acelerar() {
 		if (!isLigado) {
-			System.out.println("N√£o √© poss√≠vel acelerar ve√≠culo que est√° desligado");
+			System.out.println("N„o È possÌvel acelerar o veÌculo que est· desligado");
 		} else {
 			setVelocidade(velocidade + 20);
 		}
@@ -123,7 +123,7 @@ public class Veiculo {
 	
 	public void frear() {
 		if (velocidade < 20) {
-			System.out.println("Ve√≠culo est√° parado");
+			System.out.println("VeÌculo est· parado");
 		} else {
 			velocidade -= 20;		
 		}
@@ -136,7 +136,7 @@ public class Veiculo {
 	
 	public boolean ligar() {
 		if (isLigado) {
-			System.out.println("Carro j√° est√° ligado");
+			System.out.println("Carro j· est· ligado");
 			return true;
 		}
 		setLigado(true);
@@ -147,7 +147,7 @@ public class Veiculo {
 		if (velocidade > 0) {
 			throw new ImpossivelDesligarVeiculoEmMovimentoException();
 		} else if (!isLigado) {
-			System.out.println("Ve√≠culo j√° est√° desligado");
+			System.out.println("VeÌculo j· est· desligado");
 			return isLigado;
 		} else {
 			setLigado(false);

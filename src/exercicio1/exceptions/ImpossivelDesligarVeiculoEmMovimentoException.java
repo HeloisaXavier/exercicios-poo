@@ -5,6 +5,6 @@ public class ImpossivelDesligarVeiculoEmMovimentoException extends RuntimeExcept
 	private static final long serialVersionUID = 1L;
 
 	public ImpossivelDesligarVeiculoEmMovimentoException() {
-		super("NÃ£o Ã© possÃ­vel desligar veÃ­culo em movimento.");
+		super("Não é possível desligar veículo em movimento.");
 	}
 }

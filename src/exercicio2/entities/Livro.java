@@ -53,6 +53,11 @@ public class Livro extends Produto implements Imposto {
 
 	@Override
 	public String toString() {
-		return "TÃ­tulo: " + getNome() + ", preÃ§o: R$" + String.format("%.2f", getPreco()) + ", quantidade: " + getQuantidade();
+		return "Título: " 
+				+ getNome() 
+				+ ", preço: R$" 
+				+ String.format("%.2f", getPreco()) 
+				+ ", quantidade: " 
+				+ getQuantidade();
 	}
 }
